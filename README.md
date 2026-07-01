@@ -27,15 +27,6 @@ An AI-powered chat agent specialized in FIFA World Cup history, built from scrat
 - **LLM:** GitHub Models API
 - **Tools/Integrations:** DuckDuckGo Search, Wikipedia API, live football score API
 - **Dashboard:** Real-time stats display (refreshes on every response)
- 
-## Technologies
-
-- Python
-- GitHub Models API
-- OpenAI Python SDK
-- Wikipedia API
-- DuckDuckGo Search
-- JSON (persistent memory)
 
 ## Architecture diagram
 
@@ -87,15 +78,6 @@ pip install -r requirements.txt
 
 # Run the agent
 python agent.py
-```
-
-## Example Interaction
-
-```
-Prompt: Who won the 2018 World Cup?
-Agent: France won the 2018 FIFA World Cup, defeating Croatia 4-2 in the final...
-
-[Dashboard: Tool used: Wikipedia | Cache: miss | Response time: 1.2s | Topic: 2018 World Cup]
 ```
 
 ## Example Conversation
