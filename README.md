@@ -27,9 +27,7 @@ An AI-powered chat agent specialized in FIFA World Cup history, built from scrat
 - **LLM:** GitHub Models API
 - **Tools/Integrations:** DuckDuckGo Search, Wikipedia API, live football score API
 - **Dashboard:** Real-time stats display (refreshes on every response)
-
-## Tchnologies 
-
+ 
 ## Technologies
 
 - Python
