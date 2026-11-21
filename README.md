@@ -116,6 +116,6 @@ Search accuracy — The agent occasionally pulled incorrect information from sea
 ## Screenshots
 ![Agent Dashboard after several conversations](Dashboard.png)
 
-![Prompt](Prompt terminal.png)
+![Prompt](Promptterminal.png)
 
 Built as a personal project to combine an interest in football with hands-on AI agent development.
