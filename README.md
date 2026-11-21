@@ -105,16 +105,9 @@ Agent: 🧠 Reasoning: To find out which club Antoine Griezmann was playing for 
 
 Building this project involved working through challenges like managing API rate limits with caching, designing a lightweight memory system to give the agent conversational context, and building a dashboard that updates live alongside the chat — all as a self-directed project outside of coursework.
 
-## Future Improvements
-
-- Automated evaluation suite
-- Confidence scoring
-- Web interface
-- Multiple-source verification
-
 ## Challenges & Fixes
 
-Intelligent search fallback — Early on, if the first search came back irrelevant, the agent would sometimes generate an answer anyway rather than admit it didn't have the information. I added fallback logic so that when a lookup fails or returns weak results, the agent automatically retries with an alternative search query instead of guessing — this cut down on unsupported or made-up answers significantly.
+Intelligent search fallback — Early on, if the first search came back irrelevant, the agent would sometimes generate an answer anyway rather than admit it didn't have the information. I added fallback logic so that when a lookup fails or returns weak results, the agent automatically retries with an alternative search query instead of guessing.
 
 Pronoun and reference resolution — Follow-up questions using pronouns (e.g. "how many goals did he score?" or "when did the team qualify?") were initially breaking the agent, since each query was treated in isolation. I extended the memory system to track the current topic and player across turns, so the agent can resolve "he" or "the team" against what was actually being discussed, instead of losing context between messages.
 
